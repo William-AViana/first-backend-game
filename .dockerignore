@@ -1,10 +1,11 @@
+# Arquivo: .dockerignore
+
+.git
+.gitignore
+.env
 venv/
 __pycache__/
 *.pyc
-.git/
-.gitignore
-.dockerignore
 Dockerfile
 docker-compose.yml
-.env
 README.md
