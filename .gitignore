@@ -1,0 +1,20 @@
+# Ambientes Virtuais
+venv/
+env/
+
+# Arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente e senhas (CRÍTICO)
+.env
+
+# Banco de dados antigo (SQLite local)
+*.db
+*.sqlite3
+
+# IDEs (VSCode, PyCharm)
+.vscode/
+.idea/
