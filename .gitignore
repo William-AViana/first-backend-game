@@ -1,20 +1,18 @@
-# Ambientes Virtuais
-venv/
-env/
+# Arquivo: .gitignore
 
-# Arquivos compilados do Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Arquivos de ambiente e senhas (CRÍTICO)
+# Arquivos de ambiente e segredos (CRÍTICO)
 .env
-
-# Banco de dados antigo (SQLite local)
 *.db
 *.sqlite3
 
-# IDEs (VSCode, PyCharm)
-.vscode/
-.idea/
+# Pastas e arquivos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.pytest_cache/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
