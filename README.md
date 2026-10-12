@@ -45,8 +45,8 @@ game-leaderboard-flask/
 
 ## O Dockerfile para o Flask
 
-    O Dockerfile mudará apenas o comando final para rodar o servidor embutido do Flask 
-    (voltado para desenvolvimento/testes locais) ou preparar o server de produção.
+O Dockerfile mudará apenas o comando final para rodar o servidor embutido do Flask 
+(voltado para desenvolvimento/testes locais) ou preparar o server de produção.
 
 ---
 
@@ -116,7 +116,7 @@ O deploy é baseado em clonar o código atualizado e instruir o Docker a refazer
 ### Acesso Remoto
 Acesse seu servidor local (ou nuvem) via SSH:
 ```Bash
-ssh usuario@ip_do_servidor_debian
+ssh usuario@ip_do_servidor
 ```
 
 ### Download do Código
