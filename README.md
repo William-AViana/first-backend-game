@@ -44,6 +44,7 @@ game-leaderboard-flask/
     O padrão Application Factory (create_app) é a forma profissional de iniciar o Flask. Ele evita importações circulares e permite criar instâncias isoladas do seu app para testes locais ou produção de forma limpa.
 
 ## O Dockerfile para o Flask
+
     O Dockerfile mudará apenas o comando final para rodar o servidor embutido do Flask (voltado para desenvolvimento/testes locais) ou preparar o server de produção.
 
 ---
@@ -108,7 +109,7 @@ git push -u origin main
 
 ---
 
-## Parte 3: Deploy no Servidor de Produção (Debian)
+## Parte 3: Deploy no Servidor de Produção
 O deploy é baseado em clonar o código atualizado e instruir o Docker a refazer a imagem, mantendo os dados preservados em volumes.
 
 ### Acesso Remoto
