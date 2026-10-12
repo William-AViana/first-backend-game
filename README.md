@@ -45,7 +45,8 @@ game-leaderboard-flask/
 
 ## O Dockerfile para o Flask
 
-    O Dockerfile mudará apenas o comando final para rodar o servidor embutido do Flask (voltado para desenvolvimento/testes locais) ou preparar o server de produção.
+    O Dockerfile mudará apenas o comando final para rodar o servidor embutido do Flask 
+    (voltado para desenvolvimento/testes locais) ou preparar o server de produção.
 
 ---
 
@@ -55,7 +56,7 @@ Para desenvolver ou testar este projeto localmente, não é necessário instalar
 
 ### Clonar o Repositório
 ```bash
-git clone [link]
+git clone git@github.com:William-AViana/first-backend-game.git
 ```
 ### Acesse o diretório do projeto
 ```bash
@@ -120,7 +121,7 @@ ssh usuario@ip_do_servidor_debian
 
 ### Download do Código
 ```Bash
-git clone [link]
+git clone git@github.com:William-AViana/first-backend-game.git
 cd game-leaderboard-flask
 ```
 (Se o repositório for privado, autentique o servidor via Chave SSH ou Personal Access Token do GitHub).
