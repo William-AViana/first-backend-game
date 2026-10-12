@@ -11,7 +11,7 @@ API de backend em Python (Flask) desenvolvida para gerenciar o Top 10 mundial de
 ---
 
 ## Estrutura do Projeto com Flask
-
+```text
 game-leaderboard-flask/
 ├── app/
 │   ├── __init__.py      # Inicialização do Flask e Fábrica do App (Application Factory)
@@ -24,7 +24,7 @@ game-leaderboard-flask/
 ├── .dockerignore         # Arquivos ignorados pelo Docker
 └── requirements.txt      # Dependências do projeto
 └── .gitignore
-
+```
 1. requirements.txt
     O Flask gerencia as rotas e o ciclo de vida HTTP. O Werkzeug é a biblioteca de utilitários WSGI que roda por baixo do Flask e cuida da segurança/servidor.
 
